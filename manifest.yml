@@ -3,5 +3,5 @@ applications:
 - name: muntha1
   memory: 1G
   random-route: true
-  path: build/libs/spring-music-1.0.jar
+  path: Gradle project/build/libs/spring-music-1.0.jar
 
