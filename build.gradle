@@ -15,21 +15,21 @@ buildscript {
     }
 }
 
-// apply plugin: 'java'
+apply plugin: 'java'
 
-// apply plugin: 'eclipse-wtp'
-// apply plugin: 'idea'
-// apply plugin: 'war'
+apply plugin: 'eclipse-wtp'
+apply plugin: 'idea'
+apply plugin: 'war'
 
-// apply plugin: 'org.springframework.boot'
- // apply plugin: 'io.spring.dependency-management'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
  
  // Apply the java-library plugin to add support for Java Library
 apply plugin: 'java-library'
-apply plugin: 'eclipse'
-apply plugin: 'org.springframework.boot'
-apply plugin: 'io.spring.dependency-management'
-apply plugin: 'war'
+//apply plugin: 'eclipse'
+//apply plugin: 'org.springframework.boot'
+//apply plugin: 'io.spring.dependency-management'
+//apply plugin: 'war'
 // apply plugin: 'checkstyle'
 // apply plugin: 'pmd'
 // apply plugin: 'findbugs'
